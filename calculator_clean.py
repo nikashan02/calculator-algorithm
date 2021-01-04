@@ -1,10 +1,3 @@
-# Name: Nikashan Thavaruban
-# Date: June 11, 2019
-# File name: nikashan_thavaruban_summative
-# Description: This is a calculator algorithm. It takes in a string expression and outputs the calculated answer.
-#              It also error checks the input to make sure, there is minimal to no user error.
-# Test Cases: Tested for a variety of cases including improper brackets and math errors.
-
 def parseList(strExpression): #Function combines adjacent numbers and decimals together
     exprList = list(strExpression)
     count = -1
